@@ -1,0 +1,639 @@
+:root {
+    --primary-color: #ED1C24;
+    --secondary-color: #444444;
+    --white-color: #ffffff;
+    --dark-color: #0B0B0B;
+}
+a{
+    color: var(--primary-color);
+}
+a:hover {
+    text-decoration: none;
+    color: #FF666D;
+
+}
+
+.top-bar {
+    margin: 0 5rem;
+}
+
+.nav-link {
+    font-size: 13px;
+}
+
+.phone span {
+    color: var(--secondary-color);
+    font-size: 13px;
+}
+
+.fa-round {
+    color: var(--white-color);
+    border-radius: 50%;
+    font-size: 12px;
+    padding: 5px 6px;
+}
+
+.phone i {
+    background-color: var(--secondary-color);
+
+}
+
+.nav-link i {
+    background-color: var(--primary-color);
+}
+
+.navbar-nav .active::before,
+.nav-link:not(:last-child):hover::before {
+    content: "";
+    position: absolute;
+    width: 1%;
+    height: 1px;
+    bottom: 30%;
+    border-bottom: 1px solid var(--primary-color);
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: var(--dark-color);
+    text-transform: capitalize;
+}
+
+.top-nav {
+    margin-top: 20px;
+}
+
+.nav-btn {
+    background: none;
+    border: 1px solid var(--primary-color);
+    border-radius: 16px;
+    color: var(--secondary-color);
+    font-size: 13px;
+    text-transform: uppercase;
+    padding: 5px 25px;
+    transition: .3s;
+}
+
+.nav-btn:hover {
+    background: var(--primary-color);
+    color: var(--white-color);
+}
+/* Toggler logic */
+nav .navbar-toggler {
+    border: none;
+    color: var(--primary-color) !important;
+    font-size: 2.0rem;
+}
+
+.navbar-toggler-icon {
+    background: none !important;
+}
+
+
+.navbar-toggler.collapsed .close-icon {
+    display: none;
+}
+
+.navbar-toggler.collapsed .navbar-toggler-icon {
+    display: inline;
+}
+
+.navbar-toggler:not(.collapsed) .navbar-toggler-icon {
+    display: none;
+}
+/* End Toggler logic */
+
+
+
+
+/* Carousel style */
+.carousel-indicators li {
+    width: 15px;
+    height: 15px;
+    margin-right: 15px;
+    margin-left: 15px;
+    border-radius: 50%;
+}
+.carousel-item {
+    height: 600px;
+}
+.carousel-item::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(180deg, rgba(237, 28, 36, 0) 0%, rgba(237, 28, 36, 0.24) 40%, rgba(0, 0, 0, 0.75) 88.02%);
+}
+.carousel-caption {
+	
+	bottom: 25%;
+	text-align: left;
+	margin-right: 200px;
+}
+.carousel-caption h2{
+    
+font-weight: bold;
+font-size: 4rem;
+}
+.carousel-caption p {
+font-size: 1rem;
+padding-top: 20px;
+}
+.carousel-control-next-icon, .carousel-control-prev-icon {
+border: 2px solid;
+border-radius: 50%;
+padding: 1rem;
+}
+.w-color{
+    color: var(--white-color);
+}
+/* End Carousel style */
+
+
+/* Make Donation */
+.donation{
+    display: none;
+}
+
+.uppercase{
+    text-transform: uppercase;
+}
+/* End Make Donation */
+
+/* Welcome */
+.welcome{
+    padding: 5rem 0;
+   
+}
+.welcome h1 {
+	font-size: 2rem;
+	padding-bottom: 3rem;
+
+}
+.welcome-body{
+    font-size: 16px;
+}
+.welcome-body .more{
+    color: var(--primary-color);
+    font-size: smaller;
+}
+/* End welcome */
+.lil-grey{
+    background-color: var(--secondary-color);
+    text-align: center;
+    font-size: 18px;
+    padding: 30px 0;
+    color: var(--white-color);
+}
+.lil-grey span{
+    color: var(--primary-color);
+    font-style: italic;
+}
+
+
+/* Africa */
+.africa{
+    background-color: #0B0B0B;
+    padding: 5rem 0;
+    color: var(--white-color);
+}
+.africa h2{
+    color: var(--primary-color);
+}
+.africa-body {
+    padding: 1.5rem 0;
+    font-size: 15px;
+}
+.africa-btn {
+	background: transparent;
+	color: var(--primary-color);
+	border: 1px solid var(--primary-color);
+	padding: 15px 25px;
+    font-weight: 600;
+    transition: .3s;
+}
+.africa-btn:hover {
+	background: var(--primary-color);
+	color: var(--white-color);
+}
+
+/* End Africa */
+
+/* Telemedicine Section */
+.telemedicine {
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    padding: 5rem 0;
+}
+
+.telemedicine h2 {
+    font-size: 28px;
+    font-weight: bold;
+
+}
+.telemedicine .content {
+    padding: 3rem 0;
+}
+
+.telemedicine-btn {
+    background: transparent;
+    padding: 15px 60px;
+    color: var(--dark-color);
+    border: 1px solid var(--white-color);
+    font-weight: 600;
+    transition: .3s;
+}
+.telemedicine-btn:hover {
+	background: var(--white-color);
+	color: var(--primary-color);
+}
+/* End Telemedicine Section */
+
+/* Breadcrumbs */
+.breadcrumbs {
+    background: url('../img/about-us-imgHeader.jpg');
+    height: 290px;
+}
+
+.breadcrumbs h3 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.crumbs {
+    background: var(--dark-color);
+    color: var(--primary-color);
+}
+
+.crumbs ul {
+    list-style: none;
+    margin-left: -40px;
+    padding-bottom: 10px;
+}
+
+.crumbs ul a {
+    color: var(--primary-color);
+}
+
+.crumbs ul li {
+    display: inline;
+    font-size: 12px;
+}
+
+.crumbs ul li:not(:last-child):after {
+    content: " > ";
+}
+/* End Breadcrumbs */
+
+/* About page */
+.about-welcome {
+	font-size: 15px;
+	padding: 50px 0;
+}
+.about-welcome h1 {
+	font-size: 28px;
+	padding-bottom: 30px;
+}
+.about-welcome p {
+	padding-bottom: 15px;
+
+}
+    .about-welcome .second-welcome{
+        padding-top: 50px;
+    }
+   .about-welcome .shift-5{
+        padding-left: 5rem;
+    }
+/* About page */
+/* Partners */
+.partners h2{
+    font-weight: bold;
+font-size: 28px;
+text-transform: uppercase;
+}
+/* End partners */
+
+/* Donate page */
+.donate__sec h1{
+    font-weight: bold;
+    font-size: 36px;
+    letter-spacing: 1px;
+}
+.donate__sec h1 span{
+    color: var(--primary-color);
+    font-weight: lighter;
+}
+.donate__sec p{
+    font-weight: bold;
+font-size: 16px;
+color: var(--secondary-color);
+}
+.donate__btns{
+    margin-bottom: 50px;
+}
+.donate__btns button {
+	border: 1px solid var(--primary-color);
+	border-radius: 25px;
+	padding: 12px 0;
+	background: transparent;
+	font-size: 14px;
+	font-weight: bold;
+	color: var(--primary-color);
+	width: 20rem;
+    margin: 15px 0;
+    transition: .3s;
+}
+.donate__btns .dark__donate,.donate__btns button:hover{
+    background: var(--primary-color);
+    color: var(--white-color);
+}
+.donate__btns .dark__donate:hover{
+    background: transparent;
+    color: var(--primary-color);
+}
+.small__txt{
+    font-size: 12px;
+}
+.primary__color{
+    color: var(--primary-color);
+
+}
+.line{
+
+	border-bottom: 1px solid #a4a4a4;
+	width: 28%;
+	margin: auto;
+	margin-top: 3rem;
+
+}
+/* End donate page */
+/* COntact us page */
+
+.each-address {
+	padding: 15px 0;
+	font-size: 15px;
+}
+.each-address a{
+    color:var(--dark-color);
+}
+    .each-address i {
+        background-color: var(--primary-color);
+        padding: 8px 10px;
+        font-size: 14px;
+    }
+    .each-address:last-child{
+        font-size: 14px;
+        font-style: italic;
+        color: var(--primary-color);
+
+    }
+    .contact__form .input__field {
+        width: 100%;
+        padding: 6px 10px;
+        font-size: 14px;
+        margin: 10px 0;
+        border: 1px solid #ccc;
+        color: #3c3c3c;
+        border-radius: 8px;
+    }
+    .contact__form .input__submit {
+        background-color: var(--primary-color);
+        color: var(--white-color);
+        border: 1px solid var(--primary-color);
+        padding: 8px 0;
+        width: 100%;
+        text-transform: uppercase;
+        border-radius: 8px;
+        font-size: 13px;
+        margin-top: 10px;
+        transition: .3s;
+        
+    }
+    .contact__form .input__submit:hover {
+        background-color: var(--white-color);
+        color: var(--primary-color);
+    }
+    /* End of contact us page */
+
+    /* Projects page */
+    .projects__sec {
+        background-color: #DADADA;
+        margin-top: -48px;
+        padding: 50px 0;
+    }
+
+    .project {
+        background-color: var(--white-color);
+        padding: 30px 50px;
+    }
+    .project h1{
+        font-weight: bold;
+        font-size: 24px;
+    }
+    .project h1 small{
+        font-size: 14px;
+        color: var(--primary-color);
+    }
+    .project p{
+        font-weight: normal;
+        font-size: 14px;  
+        color: var(--secondary-color);  
+    }
+    .smallscreen__img{
+        display: none;
+    }
+    .largescreen__img{
+        display: block;
+    }
+    /* End Projects page */
+
+    /* Footer */
+.footer {
+    padding-top: 2rem;
+}
+
+.footer h4 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.footer ul {
+    list-style: none;
+    font-size: 14px;
+    margin-left: -25px;
+
+}
+.footer a {
+    color: var(--secondary-color);
+}
+.my-1-7 {
+    margin: 1.7rem 0;
+}
+.mb-100 {
+	margin-bottom: 150px;
+}
+.pr-50{
+    padding-right: 50px;
+}
+.pl-50{
+    padding-left: 50px;
+}
+.contact i {
+    color: var(--white-color);
+    background: var(--secondary-color);
+    border-radius: 50%;
+    padding: 4px 6px;
+    font-size: 9px;
+    margin-right: 5px;
+    text-align: center;
+    width: 19px;
+    height: 17px;
+}
+
+.contact li {
+    margin-bottom: 5px;
+}
+.social{
+    margin-left: 30%;
+}
+.social i {
+    color: var(--white-color);
+    background: var(--secondary-color);
+    border-radius: 50%;
+    padding: 8px 10px;
+    font-size: 16px;
+    margin-right: 5px;
+    text-align: center;
+}
+
+.footer h5 {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.copyright {
+    background: var(--secondary-color);
+    color: #bdbdbd;
+    font-size: 14px;
+    padding: 10px 0;
+}
+
+.copyright img {
+    height: 30px;
+    padding-right: 15px;
+}
+/* End Footer */
+.go-under{
+    order:1
+}
+.go-top{
+order:2
+}
+@media(max-width: 991px) {
+
+    .navbar-nav .active::before,
+    .nav-link:not(:last-child):hover::before,
+    .top-row,
+    .nav-link:last-child {
+        display: none;
+    }
+
+    .nav-link {
+        display: block;
+        padding: .5rem 1rem;
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 18px;
+        border-bottom: 0.1px solid #FDB3B6;
+    }
+    .carousel-caption h2 {
+    
+        font-size: 3.5rem;
+    }
+    .carousel-caption p {
+        font-size: 13px;
+    }
+    .carousel-caption {
+    
+        margin-right: 100px;
+    }
+}
+
+@media(max-width: 768px) {
+
+    .top-bar,
+    .top-bar .nav-link {
+        margin: 0 !important;
+        ;
+    }
+    .carousel-caption h2 {
+        font-size: 3rem;
+    }
+    .carousel-caption {
+        margin-right: 0;
+    }
+    .welcome h1 b{
+        display: block;
+    }
+    .africa h2{
+        margin-top: 30px;
+    }
+    .mbtm-5{
+        margin-bottom: 2rem;
+    }
+    .second-welcome .shift-5{
+        padding-left: 0;
+        padding-top: 20px;
+    }
+    .text-center__small{
+        text-align: center;
+    }
+    .about-welcome p {
+        text-align: left;
+    }
+    .social{
+        margin-left: 0;
+    }
+    .pr-50{
+        padding-right:0;
+    }
+    .pl-50{
+        padding-left:0;
+    }
+    .go-under{
+        order:2
+    }
+    .go-top{
+order:1
+    }
+    .mb-100{
+        margin-bottom: 0;
+    }
+    
+    .smallscreen__img {
+        display: block;
+        margin: 15px 0 30px;
+    }
+    .largescreen__img{
+        display: none;
+    }
+    .project {
+        padding: 30px 30px;
+    }
+    .donation {
+        display: block;
+        background-color: #ED1C24;
+        text-align: center;
+        font-size: 14px;
+        position: fixed;
+        bottom: 0px;
+        z-index: 20;
+        width: 100%;
+        padding: 25px 0;
+        font-weight: bold;
+    }
+    .donation a{
+        color: var(--white-color);
+    }
+    
+}

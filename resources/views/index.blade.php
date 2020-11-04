@@ -1,5 +1,5 @@
 @extends('layout.layout')
-@yield('title','Home')
+@section('title','Home')
 @section('content')
     
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">

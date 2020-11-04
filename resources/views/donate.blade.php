@@ -1,5 +1,5 @@
 @extends('layout.layout')
-@yield('title','Donate')
+@section('title','Donate')
 @section('content')
 
     <section class="breadcrumbs">

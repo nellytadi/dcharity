@@ -1,4 +1,5 @@
 @extends('layout.layout')
+@yield('title','About us')
 @section('content')
 
     <section class="breadcrumbs">

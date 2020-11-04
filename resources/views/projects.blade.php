@@ -1,4 +1,5 @@
 @extends('layout.layout')
+@yield('title','Our Projects')
 @section('content')
 <style>
 

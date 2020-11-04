@@ -66,10 +66,11 @@
 
                     <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
                         <div class="navbar-nav ml-auto">
-                        <a class="nav-link mr-5 {{!Route::is('index') ?: 'active' }}" href="{{url('/')}}">Home <span class="sr-only">(current)</span></a>
-                            <a class="nav-link mr-5 {{!Route::is('about') ?: 'active' }}" href="{{url('about')}}">About us</a>
-                            <a class="nav-link mr-5 {{!Route::is('projects') ?: 'active' }}" href="{{url('projects')}}">Projects</a>
-                            <a class="nav-link mr-5 {{!Route::is('contact') ?: 'active' }}" href="{{url('contact')}}">Contact us</a>
+                        <a class="nav-link mr-4 {{!Route::is('index') ?: 'active' }}" href="{{url('/')}}">Home <span class="sr-only">(current)</span></a>
+                            <a class="nav-link mr-4 {{!Route::is('about') ?: 'active' }}" href="{{url('about')}}">About us</a>
+                            <a class="nav-link mr-4 {{!Route::is('projects') ?: 'active' }}" href="{{url('projects')}}">Projects</a>
+                            <a class="nav-link mr-4 {{!Route::is('contact') ?: 'active' }}" href="{{url('contact')}}">Contact us</a>
+                            <a class="nav-link mr-4" href="https://shop.doctorscharity.org">Shop</a>
 
                             <div class="nav-link">
                                 <a href="#" target="_blank"><i class="fa fa-round fa-facebook"></i></a>
@@ -117,7 +118,7 @@
 
                             <ul>
                                 <li><a href="{{url('donate')}}">Donate</a></li>
-                                <li><a href="https://www.theamericanking.org" target="_blank">Movie</a></li>
+                                <li><a href="https://shop.doctorscharity.org">Shop</a></li>
                             </ul>
                         </div>
                     </div>

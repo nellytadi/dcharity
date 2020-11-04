@@ -7,9 +7,10 @@
     <meta name="description"
         content="Doctors Charity is a not-for-profit organization that helps doctors and other healthcare workers contribute their skills and resources to better the lives of people living in Africa who have poor access to healthcare.">
     <meta name="robots" content="index, follow">
-    <title>Doctors Charity | @yield('title')</title>
+    <title>Doctors Charity - Non Profit Organisation | @yield('title')</title>
     <link rel="icon" href="{{asset('assets/img/favicon.png')}}" type="image/ico">
-
+    @yield('meta-content')
+    <link rel="canonical" href="{{url()->full()}}"/>
     <meta property="og:title" content="Doctors Charity">
     <meta property="og:description"
         content="Doctors Charity is a not-for-profit organization that helps doctors and other healthcare workers contribute their skills and resources to better the lives of people living in Africa who have poor access to healthcare.">

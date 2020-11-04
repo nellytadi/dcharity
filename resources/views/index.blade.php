@@ -1,5 +1,8 @@
 @extends('layout.layout')
 @section('title','Home')
+@section('meta-content')
+
+@endsection
 @section('content')
     
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -100,7 +103,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
-                    <img src="{{asset('assets/img/boy.jpg')}}" class="img-fluid">
+                    <img src="{{asset('assets/img/boy.jpg')}}" alt="Africa the beautiful" class="img-fluid">
                 </div>
 
                 <div class="col-md-6">
@@ -156,7 +159,7 @@
                     </div>
                 </div>
                 <div class="col-md-6 ">
-                    <img src="{{asset('assets/img/home-telemedicine-img.jpg')}}" class="img-fluid">
+                    <img src="{{asset('assets/img/home-telemedicine-img.jpg')}}" alt="Doctors Charity" class="img-fluid">
                 </div>
             </div>
         </div>

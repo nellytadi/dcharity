@@ -36,7 +36,7 @@
 
                 <div class="row second-welcome">
                     <div class="col-md-6">
-                        <img src="{{asset('assets/img/about-us-img1.jpg')}}" class="img-fluid">
+                        <img src="{{asset('assets/img/about-us-img1.jpg')}}" alt="About us" class="img-fluid">
                     </div>
                     <div class="col-md-6 shift-5">
                         <p><b>We want to be about service—</b><br>
@@ -79,14 +79,14 @@
                 </div>
 
                 <div class="col-md-6">
-                    <img src="{{asset('assets/img/about-us-img2.jpg')}}" class="img-fluid">
+                    <img src="{{asset('assets/img/about-us-img2.jpg')}}" alt="Our Mission" class="img-fluid">
                 </div>
             </div>
 
             <div class="row mb-100">
 
                 <div class="col-md-6 go-under">
-                    <img src="{{asset('assets/img/about-us-img3.jpg')}}" class="img-fluid">
+                    <img src="{{asset('assets/img/about-us-img3.jpg')}}" alt="Our Legacy" class="img-fluid">
                 </div>
                 <div class="col-md-6 pl-50 go-top">
                     <h2 class="uppercase">
@@ -123,7 +123,7 @@
                 </div>
 
                 <div class="col-md-6">
-                    <img src="{{asset('assets/img/about-us-img4.jpg')}}" class="img-fluid">
+                    <img src="{{asset('assets/img/about-us-img4.jpg')}}" alt="Who we work with" class="img-fluid">
                 </div>
             </div>
             <div class="text-center">

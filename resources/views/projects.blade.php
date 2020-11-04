@@ -26,11 +26,11 @@
                 <div class="project">
                     <div class="row">
                         <div class="col-md-4 col-sm-12">
-                            <img src="{{asset('assets/img/theamericanking.jpg')}}" class="img-fluid mr-3 largescreen__img" alt="...">
+                            <img src="{{asset('assets/img/theamericanking.jpg')}}" class="img-fluid mr-3 largescreen__img" alt="The american king">
                         </div>
                         <div class="col-md-8 col-sm-12">
                             <h1 class="mt-0">The American King<br> <small>A Film by <b>Adah Obekpa</b></small></h1>
-                            <img src="{{asset('assets/img/theamericanking.jpg')}}" class="img-fluid mr-3 smallscreen__img" alt="...">
+                            <img src="{{asset('assets/img/theamericanking.jpg')}}" class="img-fluid mr-3 smallscreen__img" alt="The american king">
                             <p>
                                 In 2020, a mysterious Priestess arrives in the USA to fulfill a 400 year old Prophecy: to
                                 choose an American King (Akon) who will rebuild an ancient African Kingdom .

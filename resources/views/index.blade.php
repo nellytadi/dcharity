@@ -134,7 +134,9 @@
         </div>
     </section>
 
-    <img src="{{asset('assets/img/flags.jpg')}}" class="img-fluid" alt="participate via telemedicine">
+    <div class="img__telemedicine">
+    </div>
+   
 
     <section class="telemedicine">
         <div class="container">

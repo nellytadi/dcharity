@@ -136,7 +136,32 @@
 
     <div class="img__telemedicine">
     </div>
-   
+
+   <section class="shop">
+    <div class="container mb-5">
+        <div class="text-center my-5">
+            <h2>Shop with us!</h2>
+        </div>
+        <div class="row">
+            <div class="col-md-4 mbtm-5">
+                <img src="{{asset('assets/img/medicine.jpg')}}" alt="" class="img-fluid">
+            </div>
+            <div class="col-md-7 mbtm-5">
+                <p>
+                    Every day, our bodies are exposed to countless toxins and stressors that can really put a strain on our immune system. Some of it we can control and some of it we can’t, but regardless, it doesn’t change the fact that our immune systems take numerous hits every single day.  
+                </p>
+                <p>
+                    <b>Doctors charity</b> has fair trade, organic, Non-GMO herbal blends, handcrafted with amazing herbs, fruits and oils that's focused towards providing amazing health benefits
+                </p>
+                <a href="https://shop.doctorscharity.org">
+                    <button class="africa-btn bottom">Visit our store</button>
+                </a>
+
+            </div>
+            </div>
+        </div>
+    </div>
+   </section>
 
     <section class="telemedicine">
         <div class="container">

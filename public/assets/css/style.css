@@ -7,6 +7,9 @@
 a{
     color: var(--primary-color);
 }
+p{
+    text-align: justify;
+}
 a:hover {
     text-decoration: none;
     color: #FF666D;
@@ -218,7 +221,19 @@ padding: 1rem;
 }
 
 /* End Africa */
-
+/* Shop section */
+.shop h2{
+    font-weight: bold;
+    color: var(--primary-color);
+}
+.shop p{
+    color: var(--secondary-color);
+}
+.bottom{
+    position: absolute;
+    bottom: 0
+}
+/* End of shop */
 /* Telemedicine Section */
 .img__telemedicine {
 	background: url('../img/flags.jpg') no-repeat;
@@ -563,6 +578,10 @@ order:2
     .carousel-caption {
     
         margin-right: 100px;
+    }
+    .bottom {
+        position: relative;
+        margin-top: 20px;
     }
 }
 

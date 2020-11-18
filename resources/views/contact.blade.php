@@ -49,15 +49,14 @@
                             <div>
                                 <i class="fa fa-map-marker fa-round"></i>
                             </div>
-                            <a href="#"> 350 5th Ave, 59th Floor,
-                            New York, NY 10118.</a>
+                            <a href="#"> 555 Madison Avenue, 5th Floor, New York, NY 10022.</a>
 
                         </div>
                         <div class="each-address">
                             <div>
                                 <i class="fa fa-phone fa-round"></i>
                             </div>
-                            <a href="tel:212-470-3827"> 212-470-3827<br>
+                            <a href="#"> 
                             Mon to Fri 9am to 6 pm.</a>
                         </div>
                         <div class="each-address">

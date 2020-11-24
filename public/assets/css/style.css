@@ -195,12 +195,12 @@ padding: 1rem;
 
 
 /* Africa */
-.africa{
+.africa,.feral{
     background-color: #0B0B0B;
     padding: 5rem 0;
     color: var(--white-color);
 }
-.africa h2{
+.africa h2,.feral h2{
     color: var(--primary-color);
 }
 .africa-body {
@@ -218,6 +218,9 @@ padding: 1rem;
 .africa-btn:hover {
 	background: var(--primary-color);
 	color: var(--white-color);
+}
+.wider-btn{
+    width: 300px;
 }
 
 /* End Africa */
@@ -662,4 +665,9 @@ order:1
         color: var(--white-color);
     }
     
+}
+@media(max-width: 592px) {
+    .wider-btn {
+        width: 200px;
+    }
 }

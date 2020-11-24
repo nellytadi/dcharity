@@ -21,7 +21,6 @@
                     <a href="{{url('about')}}">
                         <button class="nav-btn w-color">Learn more</button>
                     </a>
-
                 </div>
             </div>
             <div class="carousel-item" style="background: url('{{asset('assets/img/slider-2.jpg')}}') no-repeat center;">
@@ -98,6 +97,62 @@
         We are dedicated to providing medical care and resources to the<span> economically disadvantaged</span>
     </div>
 
+    <section class="feral">
+        <div class="container">
+            <div class="row">
+                <h2>
+                   The Feral Chicken
+                </h2>
+                <div class="col-12 my-sm-5">
+                    <iframe width="100%" height="480" src="https://www.youtube.com/embed/5JM1Dt2V76Q" 
+                    frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+        </div>
+        </div>
+    </section>
+
+    
+   <section class="shop">
+    <div class="container mb-5">
+        <div class="text-center my-5">
+            <h2>Shop with us!</h2>
+        </div>
+        <div class="row">
+            <div class="col-md-4 mbtm-5">
+                <img src="{{asset('assets/img/medicine.jpg')}}" alt="" class="img-fluid">
+            </div>
+            <div class="col-md-7 mbtm-5">
+                <p>
+                    Plants extract minerals from the Earth - by the way of dissolved Stones, through their roots to produce food. Humans and animals then eat these plants for nourishment by turning the minerals back to Stone (Our Bones). The bone is the source of the <b> Miracle of Healing </b> our body and our immune system is only as strong as our Bones.
+                </p>
+                <p>
+                    Making certain changes to your lifestyle can easily help our immune system to be in top form.
+                </p>
+                <p>  
+                    Our <b>Immune Booster</b> product provides you with just the right amount of nutrients required to help us fight off diseases and infections.
+                </p>
+                <p>
+                   <b> The Immune Booster </b> several herbs such as Boneset Herbs, Horseradish Root, Echinacea Angustifolia Root, Yarrow Root, Fresh Spilanthee Herb, Elderberry, Horehound Herb, Goldenseal Root, Licorice Root, Peppermint Oil, Wild Cherry Bark, Fresh Osha Root, Andrographis Herb, Garlic, Cayenne Fruit, Olive Leaf and Onion into your diet. Small amounts of these 17 herbs combined in a diet has a synergistic effect 
+                </p>
+        
+            </div>
+            <div class="col-12 text-center mt-md-5">
+                <div class="mb-4">
+                
+                    <b style="color: var(--secondary-color)">Get the immune booster!</b>
+                
+                </div>
+                <div>
+                    <a href="https://shop.doctorscharity.org">
+                        <button class="africa-btn wider-btn">Visit our store</button>
+                    </a>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+   </section>
+
 
     <section class="africa">
         <div class="container">
@@ -136,32 +191,6 @@
 
     <div class="img__telemedicine">
     </div>
-
-   <section class="shop">
-    <div class="container mb-5">
-        <div class="text-center my-5">
-            <h2>Shop with us!</h2>
-        </div>
-        <div class="row">
-            <div class="col-md-4 mbtm-5">
-                <img src="{{asset('assets/img/medicine.jpg')}}" alt="" class="img-fluid">
-            </div>
-            <div class="col-md-7 mbtm-5">
-                <p>
-                    Every day, our bodies are exposed to countless toxins and stressors that can really put a strain on our immune system. Some of it we can control and some of it we can’t, but regardless, it doesn’t change the fact that our immune systems take numerous hits every single day.  
-                </p>
-                <p>
-                    <b>Doctors charity</b> has fair trade, organic, Non-GMO herbal blends, handcrafted with amazing herbs, fruits and oils that's focused towards providing amazing health benefits
-                </p>
-                <a href="https://shop.doctorscharity.org">
-                    <button class="africa-btn bottom">Visit our store</button>
-                </a>
-
-            </div>
-            </div>
-        </div>
-    </div>
-   </section>
 
     <section class="telemedicine">
         <div class="container">

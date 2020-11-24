@@ -104,7 +104,7 @@
                    The Feral Chicken
                 </h2>
                 <div class="col-12 my-sm-5">
-                    <iframe width="100%" height="480" src="https://www.youtube.com/embed/5JM1Dt2V76Q" 
+                    <iframe width="100%" height="480" src="https://www.youtube.com/embed/5JM1Dt2V76Q?autoplay=1" 
                     frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
         </div>
